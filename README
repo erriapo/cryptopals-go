@@ -1,0 +1,4 @@
+Depends on:
+
+* https://github.com/golang/lint
+* https://github.com/alecthomas/gometalinter
