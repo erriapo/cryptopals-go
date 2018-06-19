@@ -2,3 +2,8 @@ Depends on:
 
 * https://github.com/golang/lint
 * https://github.com/alecthomas/gometalinter
+
+Code inspired by:
+
+* https://governance.openstack.org/tc/reference/pti/golang.html
+* https://github.com/openstack/golang-client/blob/master/Makefile

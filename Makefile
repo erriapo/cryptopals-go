@@ -1,5 +1,6 @@
 export PKG := github.com/erriapo/cryptopals-go
 PKG_TEST := $(PKG)/set1
+BASE_DIR := $(shell basename $(PWD))
 
 # Set up the development environment
 .PHONY: env
@@ -9,7 +10,6 @@ env:
 	@echo "GOPATH: $(GOPATH)"
 	@echo "GOROOT: $(GOROOT)"
 	@echo "GOBIN: $(GOBIN)"
-	@echo "DEST: $(DEST)"
 	@echo "PKG: $(PKG)"
 
 .PHONY: build
